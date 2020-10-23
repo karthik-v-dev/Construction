@@ -1,0 +1,68 @@
+.title {
+    margin-bottom: 20px;
+
+    padding: 20px;
+}
+
+.img {
+    height: 260px;
+    width: 100%;
+}
+
+.owl-next span,
+.owl-prev span {
+    font-size: 45px;
+    background-color: yellowgreen;
+    padding: 10px;
+    color: white;
+
+    height: 67px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 34px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #f51c06;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.container-fluid button {
+    outline-style: none !important;
+}
+
+.inner-img {
+    transition: 0.3s;
+}
+
+.inner-img:hover {
+    transform: scale(1.1);
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid rgb(201, 202, 202);
+    box-shadow: 2px 10px 2px 2px rgb(201, 202, 202);
+}

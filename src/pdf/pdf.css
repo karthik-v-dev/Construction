@@ -1,0 +1,47 @@
+.pdfset {
+    cursor: -moz-grab;
+    cursor: grab;
+
+    padding: 99px 27.5% 15px 27.5%;
+    height: 750px;
+    margin-right: 0px;
+}
+
+.linktitle {
+
+    text-align: center;
+    padding: 12px 0px;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border-radius: 8px;
+}
+
+.setcenter {
+    text-align: center;
+    overflow-y: scroll !important;
+    max-height: 650px !important;
+    overflow-x: hidden;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 598px) {
+    .setcenter {
+        overflow-x: visible;
+    }
+
+    .react-pdf__Page__canvas {
+        padding-top: 0px;
+        margin-right: 0%;
+    }
+
+    .pdfset {
+        padding: 66px 1% 15px 1%;
+    }
+}
+
+@media not screen and (min-width: 700px) {
+    .setcenter {
+        overflow: scroll;
+    }
+}

@@ -1,0 +1,175 @@
+.setprop {
+	padding-top: 93px;
+	width: 100%;
+	height: 500px;
+
+}
+
+.setup {
+
+	width: calc(100%-15px);
+}
+
+.btn {
+	outline-style: none !important;
+}
+
+
+
+@media only screen and (max-width: 598px) {
+	.nav-right button {
+		margin: 5px 0px 0px 0px;
+	}
+
+	#collapsibleNavId {
+		overflow-y: scroll !important;
+		max-height: 200px !important;
+	}
+
+	.setpos {
+		margin-top: 20px;
+	}
+}
+
+@media not screen and (min-width: 700px) {
+
+	.nav-right button {
+		margin: 5px 0px 0px 0px;
+	}
+
+	#collapsibleNavId {
+		overflow-y: scroll !important;
+		max-height: 200px !important;
+	}
+
+	.setpos {
+		margin-top: 20px;
+	}
+}
+
+.navbar {
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px 2px whitesmoke;
+	background-color: #000;
+}
+
+.nav-right {
+	float: right;
+	margin-right: 10px;
+
+}
+
+
+
+.nav-right button {
+	padding: 6.5px 10px;
+	margin: 0px 0px 0px 5px;
+}
+
+.stic {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	top: 0;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 7px #777;
+}
+
+.dropdown-item:hover {
+	background-color: #ec90ac;
+	color: #fffffff5;
+	font-family: 'Cairo', sans-serif;
+}
+
+.dropdown-menu {
+	border: 0;
+}
+
+.textstyle {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.from-group {
+	padding: '10px 0px'
+
+}
+
+.contact-from {
+	text-align: center;
+}
+
+
+.form-control {
+	text-align: center;
+	margin: 13px 0px;
+}
+
+input {
+	background-color: rgb(221, 188, 144);
+
+
+}
+
+.btnset {
+	margin: 10px 150px;
+}
+
+.Titlesub {
+	color: blue;
+	padding: 5px 4px;
+}
+
+.react-responsive-modal-closeButton {
+	background: red;
+	color: white;
+
+}
+
+.react-responsive-modal-overlay {
+	justify-content: center;
+	align-items: center;
+}
+
+.subHigh {
+	color: red;
+	padding: 0px 4px;
+}
+
+.subtitle {
+	padding: 3px 10px;
+	color: green;
+	font-size: 18px
+}
+
+.subtitle1 {
+	color: olive;
+	padding: 8px 12px;
+}
+
+.subHigh1 {
+	color: #ea4ce6a1;
+	padding: 6px 15px;
+}
+
+.Titlesub1 {
+	color: #8aec8d;
+	;
+	padding: 0px 10px;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(207, 174, 174);
+	opacity: 1;
+	/* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: rgb(207, 174, 174);
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: rgb(207, 174, 174);
+}

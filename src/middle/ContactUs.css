@@ -1,0 +1,48 @@
+.fit {
+    display: block;
+    margin: 5px auto;
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+.setcard {
+    border-width: 0px;
+}
+
+@media (min-width: 576px) {
+
+    .card-group>.card:not(:last-child) .card-header,
+    .card-group>.card:not(:last-child) .fit {
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .card-group>.card:not(:first-child) .card-header,
+    .card-group>.card:not(:first-child) .fit {
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+}
+
+.card-body {
+    text-align: center;
+    color: whitesmoke;
+    background: #0000007a;
+}
+
+.cardset {
+    background: #ffffff00;
+}
+
+.cls {
+    color: #09f73f;
+
+}

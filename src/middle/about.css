@@ -1,0 +1,35 @@
+.sets {
+    border-radius: 50%;
+    width: 50%;
+    display: block;
+
+    margin: 10px auto;
+}
+
+
+
+#About {
+    color: #0df154;
+}
+
+@media (min-width: 576px) {
+
+    .card-group>.card:not(:last-child) .card-header,
+    .card-group>.card:not(:last-child) .sets {
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .card-group>.card:not(:first-child) .card-header,
+    .card-group>.card:not(:first-child) .sets {
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+}

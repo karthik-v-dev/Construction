@@ -1,0 +1,69 @@
+.widh {
+
+    height: 500px;
+    width: 100%;
+
+}
+
+.quote {
+    font-size: 39px;
+    color: #3b436b;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    opacity: 0.6;
+}
+
+.description {
+    font-size: 21px;
+    color: #3c0f0f;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    opacity: 0.6;
+}
+
+.ser {
+
+    background-image: url('./images/back.jpg');
+
+}
+
+.row {
+
+    background-color: transparent;
+}
+
+#carouselId {
+    padding-top: 106px;
+}
+
+.btn-info {
+    border-radius: 8px;
+}
+
+#ContactUs {
+
+    margin-bottom: 120px;
+}
+
+#Services,
+#Planning,
+#About,
+#ContactUs {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#ContactUs,
+#Services,
+#Planning,
+#About {
+    text-align: center;
+    padding-top: 106px;
+
+}
+
+.space {
+    border-right-width: 10px;
+    border-color: transparent;
+}
+
+.row {
+    margin: 0px 2%;
+}

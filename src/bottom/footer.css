@@ -1,0 +1,10 @@
+.bg-dark {
+    margin-top: 3px;
+
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
